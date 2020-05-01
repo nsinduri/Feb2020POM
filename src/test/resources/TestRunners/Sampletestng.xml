@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SampleSuite">
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.qa.hubspot.PagesTest.HomePageTest"/>
+      <class name="com.qa.hubspot.PagesTest.LoginTest"/>
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Hubspot App Regression Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.hubspot.TestListeners.pdfListener"/>
+    <listener class-name="com.qa.hubspot.TestListeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Regression Functional Test(failed)">
+    <classes>
+      <class name="com.qa.hubspot.PagesTest.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifySignUpLinkTest"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.PagesTest.LoginTest -->
+    </classes>
+  </test> <!-- Regression Functional Test(failed) -->
+</suite> <!-- Failed suite [Hubspot App Regression Test Suite] -->
